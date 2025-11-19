@@ -1,0 +1,27 @@
+
+.list-group-horizontal .list-group-item,
+.list-group-horizontal-sm .list-group-item,
+.list-group-horizontal-md .list-group-item,
+.list-group-horizontal-lg .list-group-item {
+  flex: 1;              
+  text-align: center;   
+  border: 1px solid #1c1a1a;
+}
+.center-heading {
+  text-align: center;
+}
+
+.name-item {     
+  font-weight: bold;
+}
+
+.age-item {
+  font-weight: bold;
+}
+
+.institute-item {
+  font-weight: bold;
+}
+
+
+

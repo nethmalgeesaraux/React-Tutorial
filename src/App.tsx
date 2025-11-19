@@ -1,7 +1,7 @@
-import Massage from "./Message";
+import ListGroup from "./component/ListGroup";
 
 function App() {
-  return <div><Massage/></div>
+  return <div><ListGroup/></div>
 }
 
 export default App;
