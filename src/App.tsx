@@ -1,7 +1,9 @@
 import ListGroup from "./component/ListGroup";
 
 function App() {
-  return <div><ListGroup/></div>
+let items = ["nethmal", "malaka", "shan", "dilshan"];
+
+  return <div><ListGroup items={items} heading="List of names(Cities)"/></div>
 }
 
 export default App;

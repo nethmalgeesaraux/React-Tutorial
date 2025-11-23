@@ -1,16 +1,21 @@
 import { Fragment } from "react/jsx-runtime";
 import './ListGroup.css';
 import { useState } from "react";
-function ListGroup() {
 
-    let items = ["nethmal", "malaka", "shan", "dilshan"];
+ interface Props {
+        items: string[];
+        heading: string;
+    }
+function ListGroup({items, heading}: Props) {
+
+    
     const[selectedIndex, setSelectedIndex] = useState(-1);
     //items = []; 
     
     //const handleClick = (event: React.MouseEvent<HTMLLIElement>) => console.log(event);
         
     return <div>
-        <h1>List Group</h1>
+        <h1>{heading}</h1>
         {items.length === 0 && <p>No Item Found</p>}
         <ul className="list-group">
             {items.map((items,index)=> (
